@@ -70,7 +70,7 @@ cd Python-Basics-and-Modules
 ```
 
 ## Contributing
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING) before making a pull request.
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before making a pull request.
 
 ## License
 This project is licensed under the MIT [LICENSE](LICENSE)- see the LICENSE file for details.
