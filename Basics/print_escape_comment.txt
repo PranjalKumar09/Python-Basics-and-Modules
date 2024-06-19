@@ -1,0 +1,73 @@
+PRINT
+
+print( object, sep= , end=, file= , flush=)
+in double quotes("    ") you can't write multi line comment
+either use escape sequence in double quotes and triple qrotes (''' ''') or ("""   """)
+you can put multiple object in print statement
+
+
+object -> any object as many you like
+sep -> seprartor default (' ')
+end -> end after print default (newline) 
+flush -> buffer data at once default->  Flase ex. flush = True
+         helpful in time & sleep
+         
+file-> also works printing to an open 
+
+Escape sequence that used in print 
+\'	Single Quote ;	
+\\	Backslash	
+\n	New Line	
+\r	Carriage Return	
+\t	Tab	
+\b	Backspace	
+\f	Form Feed	
+\ooo	Octal value	
+\xhh	Hex value
+
+
+
+
+COMMENTS -> *Enhance Readablity
+            * Ignored by Interepreter
+single type- #
+(you can even write afte line)
+multi line - #
+             #
+             #
+             .
+             .
+             .
+doc string comment multi - line - > """ """ 
+
+to igonore escape sequence r or R is used
+str r/R means here is Raw sting
+
+
+st ="\110\145\154"
+print(st) #Hel
+st = r"\110\145\154"
+print(st) #\110\145\154
+
+st = "\x47\x65\x65"
+print(st) #Gee
+st = "\x47\x65\x65"
+st = r"\x47\x65\x65"
+print(st)
+            
+string in print should either varibable object or in double quotes
+var = "Hello"                                        print ("hello")                       
+print(var)
+
+variable -> contanes store values name givem to memory locatiob even we can redeclare it 
+rules for variable in pyhton
+*must start with ltter or uinderscrore character.
+*cant start with number
+*only contain alpha-numeric
+*reserved keyword cant be used
+(False	def	if	raise None	del	import	return True	elif	in	try and	else	is	while as	except	lambda	with assert	finally	nonlocal	yield break	for	not	 class	from	or	 continue	global	pass)
+upto now there are 33 reserved keyword
+
+only same type of data type can added
+
+to find type of data-> type(data)
