@@ -1,0 +1,54 @@
+Virtual Environment
+
+you can install virtual Environment in pyhton which will not installed in reality
+for example you are working on project in which all program 
+
+first :
+python -m venv myenv
+
+"""myenv is name it can anything like
+python -m venv random"""
+
+then:
+source myenv/bin/activat
+
+shortcut to do above-> source m + tab/ b + tab / ac + tab
+
+now you are in virtual mode now pip installl .. will work in virtual Environment
+
+
+to do download any particular virsion like -> pip install pandas == 1.4.4 
+it will pandas of version of 1.4.4
+
+to know version in cmd ->
+type -> import pandas
+then -> pandas.__version__
+to exit from any module -> exit()
+
+to decativate any virtual Environment-> decativate
+
+myenv\Scripts\activate.bat
+
+in power shell actviating
+myenv\Scripts\activate.ps1
+
+this way we can make 
+
+
+
+More Some Function
+
+->pip freeze
+it shows all version of moudle in cmd itself
+
+
+to know version of all module in particular program 
+-> pip freeze > requirments.txt 
+this will make it in txt file
+
+-> pip install -r requirments
+it will install all packages given in requirments.txt (contain all version of respective module in system)
+
+
+
+ inx
